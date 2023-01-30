@@ -1,0 +1,19 @@
+{
+  "name": "sync-socket-state",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "ts-mocha test/**/*.spec.ts --exit"
+  },
+  "dependencies": {
+    "socket.io": "^4.5.4",
+    "socket.io-adapter": "^2.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "chai": "^4.3.7",
+    "redis": "^4.5.1",
+    "ts-mocha": "^10.0.0",
+    "@socket.io/redis-adapter": "^8.0.1",
+    "@types/mocha": "^10.0.1"
+  }
+}
